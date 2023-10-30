@@ -12,10 +12,14 @@
     {"name":"Sequences","order":10,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
+    {"name":"Characters","order":1,"path":"folders/Sprites/Characters.yy",},
+    {"name":"Junjun","order":1,"path":"folders/Sprites/Characters/Junjun.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"Characters","order":2,"path":"folders/Sprites/Characters.yy",},
-    {"name":"Junjun","order":1,"path":"folders/Sprites/Characters/Junjun.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_collisionBlock","order":2,"path":"sprites/spr_collisionBlock/spr_collisionBlock.yy",},
+    {"name":"collisionBlock","order":2,"path":"objects/collisionBlock/collisionBlock.yy",},
+    {"name":"playerCharacter","order":1,"path":"objects/playerCharacter/playerCharacter.yy",},
+  ],
 }

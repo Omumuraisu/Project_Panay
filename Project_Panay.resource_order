@@ -16,10 +16,13 @@
     {"name":"Junjun","order":1,"path":"folders/Sprites/Characters/Junjun.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+    {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},
+    {"name":"Player","order":3,"path":"folders/Objects/Player.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"tilemap__1_","order":1,"path":"sprites/tilemap__1_/tilemap__1_.yy",},
     {"name":"spr_collisionBlock","order":2,"path":"sprites/spr_collisionBlock/spr_collisionBlock.yy",},
     {"name":"collisionBlock","order":2,"path":"objects/collisionBlock/collisionBlock.yy",},
-    {"name":"playerCharacter","order":1,"path":"objects/playerCharacter/playerCharacter.yy",},
+    {"name":"Obj_StatusBar","order":1,"path":"objects/Obj_StatusBar/Obj_StatusBar.yy",},
   ],
 }

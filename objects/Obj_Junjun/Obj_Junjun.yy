@@ -4,6 +4,7 @@
   "name": "Obj_Junjun",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Junjun",
-    "path": "sprites/spr_Junjun/spr_Junjun.yy",
+    "name": "spr_Junjun_IdleRight",
+    "path": "sprites/spr_Junjun_IdleRight/spr_Junjun_IdleRight.yy",
   },
   "spriteMaskId": null,
   "visible": true,

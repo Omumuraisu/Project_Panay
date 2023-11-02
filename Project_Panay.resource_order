@@ -22,7 +22,10 @@
   "ResourceOrderSettings": [
     {"name":"tilemap__1_","order":1,"path":"sprites/tilemap__1_/tilemap__1_.yy",},
     {"name":"spr_collisionBlock","order":2,"path":"sprites/spr_collisionBlock/spr_collisionBlock.yy",},
+    {"name":"spr_Junjun_IdleLeft","order":3,"path":"sprites/spr_Junjun_IdleLeft/spr_Junjun_IdleLeft.yy",},
+    {"name":"spr_Junjun_MoveLeft","order":2,"path":"sprites/spr_Junjun_MoveLeft/spr_Junjun_MoveLeft.yy",},
     {"name":"collisionBlock","order":2,"path":"objects/collisionBlock/collisionBlock.yy",},
     {"name":"Obj_StatusBar","order":1,"path":"objects/Obj_StatusBar/Obj_StatusBar.yy",},
+    {"name":"spr_Junjun_MoveRight","order":1,"path":"sprites/spr_Junjun_MoveRight/spr_Junjun_MoveRight.yy",},
   ],
 }

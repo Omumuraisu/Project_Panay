@@ -28,7 +28,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"baaad4c8-e310-4588-a41c-a4a126c446ea","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "Junjun",
     "path": "folders/Sprites/Characters/Junjun.yy",
@@ -70,7 +70,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 54,
-    "yorigin": 84,
+    "yorigin": 168,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

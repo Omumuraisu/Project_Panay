@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_collisionBlock",
-    "path": "sprites/spr_collisionBlock/spr_collisionBlock.yy",
+    "name": "spr_Aswang_IdleLeft",
+    "path": "sprites/spr_Aswang_IdleLeft/spr_Aswang_IdleLeft.yy",
   },
   "spriteMaskId": null,
   "visible": true,

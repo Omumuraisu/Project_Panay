@@ -61,7 +61,6 @@
     {"id":{"name":"spr_Junjun_MoveRight","path":"sprites/spr_Junjun_MoveRight/spr_Junjun_MoveRight.yy",},},
     {"id":{"name":"spr_Aswang_IdleLeft","path":"sprites/spr_Aswang_IdleLeft/spr_Aswang_IdleLeft.yy",},},
     {"id":{"name":"spr_Junjun_TsinelasThrowLeft","path":"sprites/spr_Junjun_TsinelasThrowLeft/spr_Junjun_TsinelasThrowLeft.yy",},},
-    {"id":{"name":"obj_dangerdoge","path":"objects/obj_dangerdoge/obj_dangerdoge.yy",},},
     {"id":{"name":"PlayerState_Move","path":"scripts/PlayerState_Move/PlayerState_Move.yy",},},
     {"id":{"name":"spr_statustbar_border","path":"sprites/spr_statustbar_border/spr_statustbar_border.yy",},},
     {"id":{"name":"spr_statusbar1","path":"sprites/spr_statusbar1/spr_statusbar1.yy",},},

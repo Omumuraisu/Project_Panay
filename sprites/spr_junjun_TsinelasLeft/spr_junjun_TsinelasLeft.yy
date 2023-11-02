@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_junjun_TsinelasLeft",
+  "name": "spr_Junjun_TsinelasLeft",
   "bbox_bottom": 179,
   "bbox_left": 0,
   "bbox_right": 173,
@@ -34,7 +34,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_junjun_TsinelasLeft",
+    "name": "spr_Junjun_TsinelasLeft",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -56,9 +56,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f05468fd-2b80-4072-9665-25353c25119c","path":"sprites/spr_junjun_TsinelasLeft/spr_junjun_TsinelasLeft.yy",},},},"Disabled":false,"id":"f3088945-fd9c-4612-b3b4-c1f2a89c60e3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4b38709a-6816-4164-88b0-c5166b2ac7ac","path":"sprites/spr_junjun_TsinelasLeft/spr_junjun_TsinelasLeft.yy",},},},"Disabled":false,"id":"02b63b48-b9ec-49ae-8fb9-bfcee29347d1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0fb0220c-0e21-4c8c-b91d-0a7c4b02e573","path":"sprites/spr_junjun_TsinelasLeft/spr_junjun_TsinelasLeft.yy",},},},"Disabled":false,"id":"d824d981-5705-453c-a1cb-21897635d7e9","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f05468fd-2b80-4072-9665-25353c25119c","path":"sprites/spr_Junjun_TsinelasLeft/spr_Junjun_TsinelasLeft.yy",},},},"Disabled":false,"id":"f3088945-fd9c-4612-b3b4-c1f2a89c60e3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4b38709a-6816-4164-88b0-c5166b2ac7ac","path":"sprites/spr_Junjun_TsinelasLeft/spr_Junjun_TsinelasLeft.yy",},},},"Disabled":false,"id":"02b63b48-b9ec-49ae-8fb9-bfcee29347d1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0fb0220c-0e21-4c8c-b91d-0a7c4b02e573","path":"sprites/spr_Junjun_TsinelasLeft/spr_Junjun_TsinelasLeft.yy",},},},"Disabled":false,"id":"d824d981-5705-453c-a1cb-21897635d7e9","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

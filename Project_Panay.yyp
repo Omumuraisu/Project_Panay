@@ -50,7 +50,6 @@
     {"id":{"name":"Obj_StatusBar","path":"objects/Obj_StatusBar/Obj_StatusBar.yy",},},
     {"id":{"name":"obj_aswang","path":"objects/obj_aswang/obj_aswang.yy",},},
     {"id":{"name":"spr_Junjun_MoveRight","path":"sprites/spr_Junjun_MoveRight/spr_Junjun_MoveRight.yy",},},
-    {"id":{"name":"obj_dangerdoge","path":"objects/obj_dangerdoge/obj_dangerdoge.yy",},},
     {"id":{"name":"spr_statusbar1","path":"sprites/spr_statusbar1/spr_statusbar1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

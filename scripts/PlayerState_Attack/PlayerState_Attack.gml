@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerState_Attack(){
-	if (LastMoveKey == 1) {
+	if (mouse_x > x) {
 	if (sprite_index != spr_Junjun_TsinelasRight)
 	{
 		sprite_index = spr_Junjun_TsinelasRight;

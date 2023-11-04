@@ -6,6 +6,7 @@ MovementSpeed = 8;
 //HP
 HP = 4;
 HPMAX = 4;
+HPcooldown = 0
 
 //states
 State = playerstate.Move;

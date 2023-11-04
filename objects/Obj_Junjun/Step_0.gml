@@ -15,3 +15,7 @@ switch (State)
 if (attackCooldown > 0) {
     attackCooldown--;
 }
+
+if (HPcooldown > 0) {
+    HPcooldown--;
+}

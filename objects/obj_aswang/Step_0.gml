@@ -1,5 +1,4 @@
-/// @description if within distancce, follows JunJun
-// otherwise, roams to a certain direction
+/// @description Aswang's movement pattern
 
 
 //changes state depending on conditions

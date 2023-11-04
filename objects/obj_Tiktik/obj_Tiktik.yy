@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Mangkukulam",
+  "name": "obj_Tiktik",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Mangkukulam_IdleLeft",
-    "path": "sprites/spr_Mangkukulam_IdleLeft/spr_Mangkukulam_IdleLeft.yy",
+    "name": "spr_Tiktik_IdleLeft",
+    "path": "sprites/spr_Tiktik_IdleLeft/spr_Tiktik_IdleLeft.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -17,4 +17,4 @@ enum playerstate
 	Hold_Attack
 }
 
-attackCooldown = false;
+attackCooldown = 0;

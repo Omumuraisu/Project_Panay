@@ -9,3 +9,9 @@ switch (State)
 	case playerstate.Attack: PlayerState_Attack();
 	break;
 }
+
+
+//attack cooldown
+if (attackCooldown > 0) {
+    attackCooldown--;
+}

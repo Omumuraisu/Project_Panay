@@ -30,6 +30,7 @@
     {"name":"spr_Junjun_TsinelasLeft","order":5,"path":"sprites/spr_Junjun_TsinelasLeft/spr_Junjun_TsinelasLeft.yy",},
     {"name":"spr_collisionBlock","order":2,"path":"sprites/spr_collisionBlock/spr_collisionBlock.yy",},
     {"name":"spr_Junjun_IdleLeft","order":3,"path":"sprites/spr_Junjun_IdleLeft/spr_Junjun_IdleLeft.yy",},
+    {"name":"PlayerState_Hold_Attack","order":3,"path":"scripts/PlayerState_Hold_Attack/PlayerState_Hold_Attack.yy",},
     {"name":"spr_Junjun_TsinelasThrowRight","order":6,"path":"sprites/spr_Junjun_TsinelasThrowRight/spr_Junjun_TsinelasThrowRight.yy",},
     {"name":"Animation_End","order":2,"path":"scripts/Animation_End/Animation_End.yy",},
     {"name":"spr_Junjun_TsinelasRight","order":4,"path":"sprites/spr_Junjun_TsinelasRight/spr_Junjun_TsinelasRight.yy",},

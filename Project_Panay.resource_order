@@ -38,6 +38,8 @@
     {"name":"collisionBlock","order":2,"path":"objects/collisionBlock/collisionBlock.yy",},
     {"name":"spr_HP","order":3,"path":"sprites/spr_HP/spr_HP.yy",},
     {"name":"Obj_StatusBar","order":1,"path":"objects/Obj_StatusBar/Obj_StatusBar.yy",},
+    {"name":"spr_Junjun_ThrowRight","order":8,"path":"sprites/spr_Junjun_ThrowRight/spr_Junjun_ThrowRight.yy",},
+    {"name":"spr_Junjun_ThrowLeft","order":9,"path":"sprites/spr_Junjun_ThrowLeft/spr_Junjun_ThrowLeft.yy",},
     {"name":"spr_Junjun_MoveRight","order":1,"path":"sprites/spr_Junjun_MoveRight/spr_Junjun_MoveRight.yy",},
     {"name":"spr_Junjun_TsinelasThrowLeft","order":7,"path":"sprites/spr_Junjun_TsinelasThrowLeft/spr_Junjun_TsinelasThrowLeft.yy",},
     {"name":"spr_statustbar_border","order":2,"path":"sprites/spr_statustbar_border/spr_statustbar_border.yy",},

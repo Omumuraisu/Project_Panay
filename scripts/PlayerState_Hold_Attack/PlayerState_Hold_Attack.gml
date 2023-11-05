@@ -8,6 +8,7 @@ if (mouse_x > x)
 {	
 	sprite_index = spr_Junjun_TsinelasThrowRight;
 	image_speed = 0;
+	throwDirection = 0;
 	if (holdTimer <= 30)
 		{
 			image_index = 0;
@@ -25,6 +26,7 @@ else if (mouse_x < x)
 {	
 	sprite_index = spr_Junjun_TsinelasThrowLeft;
 	image_speed = 0;
+	throwDirection = 1;
 	if (holdTimer <= 30)
 		{
 			image_index = 0;
@@ -42,10 +44,11 @@ else if (mouse_x < x)
 	
 	if (mouse_check_button_released(mb_left))
 	{
-		State = playerstate.Move;
-		isHoldAttacking = false;
-		mouseCooldown = 0;
+		State = playerstate.Throw;
+		isThrowing = true;
 		holdTimer = 0;
+		mouseCooldown = 0;
+		isHoldAttacking = false;
 	}
 }
 

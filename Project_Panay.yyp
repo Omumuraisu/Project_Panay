@@ -55,6 +55,7 @@
     {"id":{"name":"spr_Junjun_TsinelasThrowRight","path":"sprites/spr_Junjun_TsinelasThrowRight/spr_Junjun_TsinelasThrowRight.yy",},},
     {"id":{"name":"spr_Tiktik_IdleLeft","path":"sprites/spr_Tiktik_IdleLeft/spr_Tiktik_IdleLeft.yy",},},
     {"id":{"name":"Animation_End","path":"scripts/Animation_End/Animation_End.yy",},},
+    {"id":{"name":"PlayerState_Throw","path":"scripts/PlayerState_Throw/PlayerState_Throw.yy",},},
     {"id":{"name":"spr_Junjun_TsinelasRight","path":"sprites/spr_Junjun_TsinelasRight/spr_Junjun_TsinelasRight.yy",},},
     {"id":{"name":"spr_Junjun_MoveLeft","path":"sprites/spr_Junjun_MoveLeft/spr_Junjun_MoveLeft.yy",},},
     {"id":{"name":"collisionBlock","path":"objects/collisionBlock/collisionBlock.yy",},},

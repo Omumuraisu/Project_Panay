@@ -23,3 +23,5 @@ attackDuration = 0.5 * room_speed;
 isAttacking = false;
 isHoldAttacking = false;
 mouseCooldown = 0;
+holdTimer = 0;
+holdState = 1;

@@ -7,5 +7,7 @@ function PlayerState_Hold_Attack(){
 	if (mouse_check_button_released(mb_left))
 	{
 		State = playerstate.Move;
+		isHoldAttacking = false;
+		mouseCooldown = 0;
 	}
 }

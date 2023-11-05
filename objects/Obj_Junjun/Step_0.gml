@@ -1,21 +1,27 @@
+
+// Hold Attack
+if (mouse_check_button(mb_left) && State != playerstate.Attack && !isHoldAttacking && attackCooldown == 0) 
+	{
+		mouseCooldown ++;
+	}
+	
+if (mouseCooldown > 10)
+	{
+		State = playerstate.Hold_Attack;
+		isHoldAttacking = true;
+	}
+	
 // Attack
-if (mouse_check_button_pressed(mb_left)) {
-    if (State != playerstate.Hold_Attack && attackCooldown == 0 && !isAttacking) 
+if (mouse_check_button_released(mb_left)) {
+    if (State != playerstate.Hold_Attack && attackCooldown == 0 && !isAttacking && mouseCooldown < 10) 
 	{
         State = playerstate.Attack;
 		isAttacking = true;
-		attackCooldown = room_speed*0.4;
+		attackCooldown = room_speed*0.3;
+		mouseCooldown = 0;
         
     }
 }
-
-// Hold Attack
-if (mouse_check_button(mb_left) && State != playerstate.Attack && attackCooldown == 0) 
-	{
-	  State = playerstate.Hold_Attack;
-	}
-	
-
 
 //states
 switch (State)
@@ -43,3 +49,4 @@ if (attackCooldown > 0) {
 if (Damagecooldown > 0) {
     Damagecooldown--;
 }
+

@@ -21,3 +21,5 @@ enum playerstate
 attackCooldown = 0;
 attackDuration = 0.5 * room_speed;
 isAttacking = false;
+isHoldAttacking = false;
+mouseCooldown = 0;

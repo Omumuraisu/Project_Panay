@@ -23,6 +23,8 @@
     {"name":"UI","order":3,"path":"folders/Sprites/UI.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+    {"name":"Portraits","order":10,"path":"folders/Sprites/Characters/Junjun/Portraits.yy",},
+    {"name":"Dialogue","order":4,"path":"folders/Sprites/UI/Dialogue.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_statusbar_bg","order":1,"path":"sprites/spr_statusbar_bg/spr_statusbar_bg.yy",},

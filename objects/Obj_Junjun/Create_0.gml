@@ -6,6 +6,7 @@ MovementSpeed = 8;
 //HP
 HP = 4;
 HPMAX = 4;
+Damagecooldown = 0
 
 //states
 State = playerstate.Move;
@@ -14,7 +15,17 @@ enum playerstate
 {
 	Move,
 	Attack,
-	Hold_Attack
+	Hold_Attack,
+	Throw
 }
 
+// attack
 attackCooldown = 0;
+isAttacking = false;
+isHoldAttacking = false;
+mouseCooldown = 0;
+
+// hold attack
+holdTimer = 0;
+isThrowing = false;
+throwDirection = 0;

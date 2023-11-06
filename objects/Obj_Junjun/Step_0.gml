@@ -1,11 +1,11 @@
 
 // Hold Attack
-if (mouse_check_button(mb_left) && State != playerstate.Attack && !isHoldAttacking && attackCooldown == 0 && !isThrowing) 
+if (mouse_check_button(mb_left) && State != playerstate.Attack && !isHoldAttacking && attackCooldown == 0 && !isThrowing && !inDialogue) 
 	{
 		mouseCooldown ++;
 	}
 	
-if (mouseCooldown > 15 && !isThrowing)
+if (mouseCooldown > 15 && !isThrowing && !inDialogue)
 	{
 		State = playerstate.Hold_Attack;
 		isHoldAttacking = true;
@@ -13,7 +13,7 @@ if (mouseCooldown > 15 && !isThrowing)
 	
 // Attack
 if (mouse_check_button_released(mb_left)) {
-    if (State != playerstate.Hold_Attack && attackCooldown == 0 && !isAttacking && mouseCooldown < 10 && !isThrowing && State != playerstate.Throw)
+    if (State != playerstate.Hold_Attack && attackCooldown == 0 && !isAttacking && mouseCooldown < 10 && !isThrowing && State != playerstate.Throw && !inDialogue)
 	{
         State = playerstate.Attack;
 		isAttacking = true;
@@ -37,6 +37,9 @@ switch (State)
 	
 	case playerstate.Throw: PlayerState_Throw();
 	break;
+	
+	case playerstate.Talk: PlayerState_Talk();
+	break;
 }
 
 
@@ -52,3 +55,4 @@ if (attackCooldown > 0) {
 if (Damagecooldown > 0) {
     Damagecooldown--;
 }
+

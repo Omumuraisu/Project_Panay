@@ -16,7 +16,8 @@ enum playerstate
 	Move,
 	Attack,
 	Hold_Attack,
-	Throw
+	Throw,
+	Talk
 }
 
 // attack
@@ -29,3 +30,6 @@ mouseCooldown = 0;
 holdTimer = 0;
 isThrowing = false;
 throwDirection = 0;
+
+//dialogue
+inDialogue = false;

@@ -17,7 +17,7 @@ enum playerstate
 	Attack,
 	Hold_Attack,
 	Throw,
-	Talk
+	Talk,
 }
 
 hitByAttack = ds_list_create();

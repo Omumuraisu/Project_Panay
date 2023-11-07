@@ -5,6 +5,11 @@
 if(HP <= 0){
 	instance_destroy();
 }
+
+if(damageCooldown > 0){
+	damageCooldown--;
+}
+
 if(sqrt(sqr(x - Obj_Junjun.x) + sqr(y - (Obj_Junjun.y - Obj_Junjun.sprite_height/2))) <= combat_distance*2){
 	if(sqrt(sqr(x - Obj_Junjun.x) + sqr(y -  (Obj_Junjun.y - Obj_Junjun.sprite_height/2))) <= 1.5*combat_distance){
 		state = 2;

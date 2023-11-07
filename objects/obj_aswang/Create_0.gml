@@ -2,6 +2,7 @@
 
 //hitpoints
 HP = 8;
+damageCooldown = 0;
 
 //x coordinate of where the aswang will go to
 _destination_x = x;

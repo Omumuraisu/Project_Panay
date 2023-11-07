@@ -1,6 +1,9 @@
 /// @description Insert description here
 /// @description Variables used later
 
+HP = 2;
+damageCooldown = 0;
+
 //x coordinate of where the aswang will go to
 _destination_x = x;
 

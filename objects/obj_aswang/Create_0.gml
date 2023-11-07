@@ -1,5 +1,8 @@
 /// @description Variables used later
 
+//hitpoints
+HP = 8;
+
 //x coordinate of where the aswang will go to
 _destination_x = x;
 

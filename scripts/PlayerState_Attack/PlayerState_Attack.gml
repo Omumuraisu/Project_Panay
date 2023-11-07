@@ -3,20 +3,22 @@
 function PlayerState_Attack(){
 	
 	if (mouse_x > x) {
-	if (sprite_index != spr_Junjun_TsinelasRight)
-	{
-		sprite_index = spr_Junjun_TsinelasRight;
-		image_index = 0;
-		// code dslist here
-	}
+		if (sprite_index != spr_Junjun_TsinelasRight)
+		{
+			sprite_index = spr_Junjun_TsinelasRight;
+			image_index = 0;
+			// code dslist here
+		}
+		mask_index = spr_Junjun_TsinelasRightHB;
 	}
 	else
 	{
 		if (sprite_index != spr_Junjun_TsinelasLeft)
-	{
-		sprite_index = spr_Junjun_TsinelasLeft;
-		image_index = 0;
-		// code dslist here
-	}
+		{
+			sprite_index = spr_Junjun_TsinelasLeft;
+			image_index = 0;
+			// code dslist 
+		}
+		mask_index = spr_Junjun_TsinelasLeftHB;
 	}
 }

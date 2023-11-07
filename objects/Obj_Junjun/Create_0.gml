@@ -20,6 +20,8 @@ enum playerstate
 	Talk
 }
 
+hitByAttack = ds_list_create();
+
 // attack
 attackCooldown = 0;
 isAttacking = false;

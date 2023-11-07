@@ -11,6 +11,8 @@
     {"name":"Paths","order":3,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":9,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Enemy","order":10,"path":"folders/Scripts/Enemy.yy",},
+    {"name":"Player","order":8,"path":"folders/Scripts/Player.yy",},
     {"name":"Textbox","order":6,"path":"folders/Scripts/Textbox.yy",},
     {"name":"Sequences","order":10,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
@@ -26,8 +28,6 @@
     {"name":"Dialogue","order":4,"path":"folders/Sprites/UI/Dialogue.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"Player","order":8,"path":"folders/Scripts/Player.yy",},
-    {"name":"Enemy","order":10,"path":"folders/Scripts/Enemy.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_statusbar_bg","order":1,"path":"sprites/spr_statusbar_bg/spr_statusbar_bg.yy",},
@@ -49,6 +49,7 @@
     {"name":"collisionBlock","order":2,"path":"objects/collisionBlock/collisionBlock.yy",},
     {"name":"spr_HP","order":3,"path":"sprites/spr_HP/spr_HP.yy",},
     {"name":"por_Junjun_smug","order":1,"path":"sprites/por_Junjun_smug/por_Junjun_smug.yy",},
+    {"name":"spr_Junjun_TsinelasLeftHB","order":11,"path":"sprites/spr_Junjun_TsinelasLeftHB/spr_Junjun_TsinelasLeftHB.yy",},
     {"name":"Obj_StatusBar","order":1,"path":"objects/Obj_StatusBar/Obj_StatusBar.yy",},
     {"name":"EnemyState_Roam","order":1,"path":"scripts/EnemyState_Roam/EnemyState_Roam.yy",},
     {"name":"spr_Junjun_ThrowRight","order":8,"path":"sprites/spr_Junjun_ThrowRight/spr_Junjun_ThrowRight.yy",},
@@ -58,6 +59,7 @@
     {"name":"spr_Junjun_TsinelasThrowLeft","order":7,"path":"sprites/spr_Junjun_TsinelasThrowLeft/spr_Junjun_TsinelasThrowLeft.yy",},
     {"name":"PlayerState_Move","order":3,"path":"scripts/PlayerState_Move/PlayerState_Move.yy",},
     {"name":"PlayerState_Talk","order":2,"path":"scripts/PlayerState_Talk/PlayerState_Talk.yy",},
+    {"name":"spr_Junjun_TsinelasRightHB","order":12,"path":"sprites/spr_Junjun_TsinelasRightHB/spr_Junjun_TsinelasRightHB.yy",},
     {"name":"spr_statustbar_border","order":2,"path":"sprites/spr_statustbar_border/spr_statustbar_border.yy",},
   ],
 }

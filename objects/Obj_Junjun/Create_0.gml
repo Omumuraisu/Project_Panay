@@ -1,7 +1,7 @@
 //Movement
 LastMoveKey = 1; //checking last movement key
 MovementSpeed = 8;
-
+collisionSpeed = MovementSpeed + 2;
 
 //HP
 HP = 4;

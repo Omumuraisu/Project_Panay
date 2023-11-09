@@ -34,7 +34,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_Junjun_IdleRight",
     "path": "sprites/spr_Junjun_IdleRight/spr_Junjun_IdleRight.yy",

@@ -13,3 +13,24 @@ global.topics[$ "Example"] = [
 	new TextAction("AHHAHAAHAHAHAHAHAHAH")
 ];
 
+global.topics[$ "Intro3"] = [
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Home is this way..."),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("It's getting really late..."),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("I need to hurry home before Nanay kills me."),
+];
+
+global.topics[$ "Intro4"] = [
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("..."),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("HUH!?"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("HOW LONG WAS I OUT?"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("..."),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("NANAY'S GONNA KILL ME!"),
+];

@@ -24,6 +24,8 @@ global.topics[$ "Intro3"] = [
 
 global.topics[$ "Intro4"] = [
 	new SpeakerAction(por_Junjun_default),
+	new TextAction("Araguy...I tripped"),
+	new SpeakerAction(por_Junjun_default),
 	new TextAction("..."),
 	new SpeakerAction(por_Junjun_default),
 	new TextAction("HUH!?"),

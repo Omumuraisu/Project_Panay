@@ -2,7 +2,7 @@ switch (eventStep){
 	
 case 1: 
 	
-	Obj_Junjun.sprite_index = spr_Junjun_ThrowRight;
+	Obj_Junjun.sprite_index = spr_Junjun_trip;
 	eventdelay ++;
 	if (eventdelay == room_speed * 3){
 		eventStep = 2;
@@ -12,6 +12,7 @@ case 1:
 	
 case 2:
 	guidraw = true;
+	Obj_Junjun.sprite_index = spr_Junjun_trip;
 		eventdelay ++;
 	if (eventdelay == room_speed * 3){
 		eventStep = 3;
@@ -21,7 +22,7 @@ case 2:
 	break;
 	
 case 3: 
-	Obj_Junjun.sprite_index = spr_Junjun_DamagedLeft;
+	Obj_Junjun.sprite_index = spr_Junjun_trip;
 	eventdelay ++;
 	if (eventdelay == room_speed * 3){
 		eventStep = 4;

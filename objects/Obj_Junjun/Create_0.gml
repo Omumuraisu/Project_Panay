@@ -1,3 +1,6 @@
+//Event Control
+storyState = 1;
+
 //Movement
 LastMoveKey = 1; //checking last movement key
 MovementSpeed = 8;

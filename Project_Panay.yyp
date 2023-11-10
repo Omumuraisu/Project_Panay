@@ -80,6 +80,7 @@
     {"id":{"name":"Animation_End","path":"scripts/Animation_End/Animation_End.yy",},},
     {"id":{"name":"PlayerState_Throw","path":"scripts/PlayerState_Throw/PlayerState_Throw.yy",},},
     {"id":{"name":"spr_Junjun_TsinelasRight","path":"sprites/spr_Junjun_TsinelasRight/spr_Junjun_TsinelasRight.yy",},},
+    {"id":{"name":"Area6","path":"rooms/Area6/Area6.yy",},},
     {"id":{"name":"spr_Junjun_MoveLeft","path":"sprites/spr_Junjun_MoveLeft/spr_Junjun_MoveLeft.yy",},},
     {"id":{"name":"EnemyKnockback","path":"scripts/EnemyKnockback/EnemyKnockback.yy",},},
     {"id":{"name":"spr_Aswang_DamagedRight","path":"sprites/spr_Aswang_DamagedRight/spr_Aswang_DamagedRight.yy",},},
@@ -136,6 +137,7 @@
     {"roomId":{"name":"Area3","path":"rooms/Area3/Area3.yy",},},
     {"roomId":{"name":"Area2","path":"rooms/Area2/Area2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Area6","path":"rooms/Area6/Area6.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

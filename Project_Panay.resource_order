@@ -56,6 +56,7 @@
     {"name":"Sprite38","order":2,"path":"sprites/Sprite38/Sprite38.yy",},
     {"name":"PlayerState_Throw","order":1,"path":"scripts/PlayerState_Throw/PlayerState_Throw.yy",},
     {"name":"spr_Junjun_TsinelasRight","order":4,"path":"sprites/spr_Junjun_TsinelasRight/spr_Junjun_TsinelasRight.yy",},
+    {"name":"Area6","order":6,"path":"rooms/Area6/Area6.yy",},
     {"name":"spr_Junjun_MoveLeft","order":2,"path":"sprites/spr_Junjun_MoveLeft/spr_Junjun_MoveLeft.yy",},
     {"name":"EnemyKnockback","order":2,"path":"scripts/EnemyKnockback/EnemyKnockback.yy",},
     {"name":"spr_Aswang_DamagedRight","order":8,"path":"sprites/spr_Aswang_DamagedRight/spr_Aswang_DamagedRight.yy",},

@@ -1,5 +1,5 @@
 //Event Control
-storyState = 1;
+storyState = 0;
 
 //Movement
 LastMoveKey = 1; //checking last movement key

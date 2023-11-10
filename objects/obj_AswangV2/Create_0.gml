@@ -5,7 +5,7 @@ HP = 8;
 damageCooldown = 0;
 
 //how fast/far the Aswang gets knokbacked
-knoackback_speed = 0;
+knockback_speed = 0;
 
 xspeed = 2.5;
 yspeed = 2.5;
@@ -23,7 +23,8 @@ enum EnemyState{
 	Idle,
 	Follow,
 	Attack,
-	Knockback
+	Knockback,
+	Dead
 }
 State = EnemyState.Idle;
 

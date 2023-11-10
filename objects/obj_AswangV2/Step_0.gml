@@ -1,10 +1,6 @@
 /// @description Aswang's movement pattern
 
 //changes state depending on conditions
-if(HP <= 0){
-	instance_destroy();
-}
-
 if(damageCooldown > 0){
 	damageCooldown--;
 }
@@ -12,8 +8,11 @@ if(damageCooldown > 0){
 if(frame_timer > 0){
 	frame_timer--;
 }
+if(HP <= 0){
+	State = EnemyState.Dead;
+}
 
-if(distance_to_object(Obj_Junjun) <= 540 && State != EnemyState.Knockback && State != EnemyState.Attack){
+if(distance_to_object(Obj_Junjun) <= 540 && State != EnemyState.Knockback && State != EnemyState.Attack && State != EnemyState.Dead){
 	if(distance_to_object(Obj_Junjun) <= combat_distance){
 		State = EnemyState.Attack;
 		frame_timer = 0.3*room_speed;
@@ -93,4 +92,7 @@ switch State{
 	//case EnemyState.Roam:
 		//EnemyState_Roam();
 		//break;
+	case EnemyState.Dead:
+		sprite_index = spr_Aswang_Dft;
+		break;
 }

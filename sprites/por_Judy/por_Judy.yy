@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "por_Nanay",
+  "name": "por_Judy",
   "bbox_bottom": 227,
   "bbox_left": 0,
   "bbox_right": 287,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8933c127-e09c-447d-b086-72610aa4b0c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"493a220d-efef-45f1-ac71-24e55d0f3c78",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 228,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0e698e8c-8d01-4a18-8414-c6dad5524df9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a53b9c5b-26d5-4285-9bd8-46503fdbbe29","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "por_Nanay",
+    "name": "por_Judy",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8933c127-e09c-447d-b086-72610aa4b0c1","path":"sprites/por_Nanay/por_Nanay.yy",},},},"Disabled":false,"id":"f961d144-6ebd-4eca-b32e-ea48b3a5fa8d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"493a220d-efef-45f1-ac71-24e55d0f3c78","path":"sprites/por_Judy/por_Judy.yy",},},},"Disabled":false,"id":"66b8958f-1dda-4eb1-a064-20901260e087","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

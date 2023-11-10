@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "por_Nanay",
+  "name": "por_Ivan",
   "bbox_bottom": 227,
   "bbox_left": 0,
   "bbox_right": 287,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8933c127-e09c-447d-b086-72610aa4b0c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"41712aa9-e11c-452b-8169-2c7f5825c9fb",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 228,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0e698e8c-8d01-4a18-8414-c6dad5524df9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"258385bf-ecdf-48a6-9e0f-95d68ad0db92","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "por_Nanay",
+    "name": "por_Ivan",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8933c127-e09c-447d-b086-72610aa4b0c1","path":"sprites/por_Nanay/por_Nanay.yy",},},},"Disabled":false,"id":"f961d144-6ebd-4eca-b32e-ea48b3a5fa8d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"41712aa9-e11c-452b-8169-2c7f5825c9fb","path":"sprites/por_Ivan/por_Ivan.yy",},},},"Disabled":false,"id":"6279e0fa-5bab-4765-a76d-ae2ec00a440a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

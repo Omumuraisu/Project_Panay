@@ -1,5 +1,5 @@
 //Event Control
-storyState = 0;
+storyState = 2;
 
 //Movement
 LastMoveKey = 1; //checking last movement key
@@ -15,8 +15,8 @@ Mana = 3;
 ManaMAX = 3;
 
 //Weapon/Charm
-Weapon = 1 // 1 = slipper
-Charm = 1// 1 = shockwave
+Weapon = 0; // 1 = slipper
+Charm = 0;// 1 = shockwave
 
 //states
 State = playerstate.Move;

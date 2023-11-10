@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_Aswang_DamagedLeft",
+  "name": "spr_Aswang_DamagedL",
   "bbox_bottom": 197,
   "bbox_left": 0,
   "bbox_right": 173,
@@ -24,15 +24,11 @@
   ],
   "nineSlice": null,
   "origin": 4,
-  "parent": {
-    "name": "Aswang",
-    "path": "folders/Sprites/Characters/Enemies/Aswang.yy",
-  },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_Aswang_DamagedLeft",
+    "name": "spr_Aswang_DamagedL",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +50,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f99aea43-60a6-4dc5-85b3-38cc41186073","path":"sprites/spr_Aswang_DamagedLeft/spr_Aswang_DamagedLeft.yy",},},},"Disabled":false,"id":"01efdd2a-d2f0-4b2d-ab6c-5bce5f692c7f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f99aea43-60a6-4dc5-85b3-38cc41186073","path":"sprites/spr_Aswang_DamagedL/spr_Aswang_DamagedL.yy",},},},"Disabled":false,"id":"01efdd2a-d2f0-4b2d-ab6c-5bce5f692c7f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

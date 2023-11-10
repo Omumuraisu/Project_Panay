@@ -1,7 +1,7 @@
 eventdelay = 0;
 eventStep = 0;
-guidraw = false;
+camy = 0;
 
-if (Obj_Junjun.storyState != 0) {
+if (Obj_Junjun.storyState != 2) {
 	instance_destroy();
 }

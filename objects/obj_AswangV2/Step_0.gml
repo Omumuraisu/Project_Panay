@@ -95,4 +95,9 @@ switch State{
 	case EnemyState.Dead:
 		sprite_index = spr_Aswang_Dft;
 		break;
+	
+	//for cutscenes
+	case EnemyState.Pause:
+	break;
+	
 }

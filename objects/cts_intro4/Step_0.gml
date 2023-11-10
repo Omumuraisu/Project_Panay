@@ -18,10 +18,12 @@ case 2:
 		eventStep = 3;
 		eventdelay = 0;
 		guidraw = false;
+		tilechangeA1();
 	}
 	break;
 	
 case 3: 
+	
 	Obj_Junjun.sprite_index = spr_Junjun_trip;
 	eventdelay ++;
 	if (eventdelay == room_speed * 3){
@@ -35,6 +37,7 @@ case 4:
 	eventdelay ++;
 	if (eventdelay == room_speed * 2){
 	startDialogue("Intro4");
+	Obj_Junjun.storyState = 1;
 	instance_destroy();
 	}
 	break;

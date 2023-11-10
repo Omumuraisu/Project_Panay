@@ -24,7 +24,8 @@ enum EnemyState{
 	Follow,
 	Attack,
 	Knockback,
-	Dead
+	Dead,
+	Pause
 }
 State = EnemyState.Idle;
 

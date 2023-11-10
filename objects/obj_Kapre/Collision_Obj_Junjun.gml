@@ -1,11 +1,9 @@
- /// @description Insert description here
-// You can write your code in this editor
-
+/// @description junjun wat are u doin
 
 if(Obj_Junjun.sprite_index == spr_Junjun_TsinelasLeft || Obj_Junjun.sprite_index == spr_Junjun_TsinelasRight){
 	if(damageCooldown == 0){
 		HP--;
-		damageCooldown = 0.3*room_speed;
+		damageCooldown = 0.5*room_speed;
 		EnemyKnockback();
 	}
 }

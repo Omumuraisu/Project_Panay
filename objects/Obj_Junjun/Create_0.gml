@@ -11,6 +11,13 @@ HP = 4;
 HPMAX = 4;
 Damagecooldown = 0
 
+Mana = 3;
+ManaMAX = 3;
+
+//Weapon/Charm
+Weapon = 1 // 1 = slipper
+Charm = 1// 1 = shockwave
+
 //states
 State = playerstate.Move;
 

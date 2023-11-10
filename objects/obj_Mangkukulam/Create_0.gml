@@ -1,17 +1,15 @@
 /// @description Insert description here
 /// @description Variables used later
 
-HP = 2;
+HP = 8;
 damageCooldown = 0;
 
+//how fast/far the mangkukulam gets knokbacked
+knockback_speed = 0;
+
 //x coordinate of where the aswang will go to
-_destination_x = x;
-
-//y coordinate of where the aswang will go to
-_destination_y = y;
-
-//direction of where the aswang will go to
-_destination_direction = 0;
+xspeed = 2.5;
+yspeed = 2.5;
 
 //counts frames - temporary timer for roam/idle state
 frame_timer = 0;

@@ -66,6 +66,17 @@ global.topics[$ "Intro5"] = [
 	new TextAction("(Okay my house is just to the south)"),
 ];
 
+global.topics[$ "Intro6A"] = [
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("H-huh?"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("What's that?"),
+];
+
+global.topics[$ "Intro6A"] = [
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("EHHHH!?"),
+];
 
 global.topics[$ "Abby1"] = [
 	new SpeakerAction(por_Abby),

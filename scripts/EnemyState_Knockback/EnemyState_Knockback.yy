@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "EnemyKnockback",
+  "name": "EnemyState_Knockback",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

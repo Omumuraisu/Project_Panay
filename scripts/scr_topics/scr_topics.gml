@@ -60,3 +60,33 @@ global.topics[$ "Intro4"] = [
 	new SpeakerAction(por_Junjun_default),
 	new TextAction("NANAY'S GONNA KILL ME!"),
 ];
+
+global.topics[$ "Abby1"] = [
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Hey High Five!"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("High Five!"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Whoops, missed it. my arm broke."),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("(I will never give anyone a high five ever again)"),
+];
+
+global.topics[$ "Makoy1"] = [
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Yo Makoy!"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Junjun! Wanna play some Ins?"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Ins? of course I wanna play!"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("but with who?"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Let's see.."),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("(Makoy looks around to see any other kids nearby.)"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Huh, no one's here"),
+	new SpeakerAction(por_Junjun_default),
+	new TextAction("Maybe next time.."),
+];

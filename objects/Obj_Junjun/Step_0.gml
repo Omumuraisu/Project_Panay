@@ -1,4 +1,8 @@
 
+if(HP <= 0){
+	//input code for when he die.
+}
+
 if(State != playerstate.Knockback){
 	// Hold Attack
 	if (mouse_check_button(mb_left) && State != playerstate.Attack && !isHoldAttacking && attackCooldown == 0 && !isThrowing && !inDialogue) 

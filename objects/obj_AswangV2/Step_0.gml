@@ -22,33 +22,32 @@ switch State{
 	case EnemyState.Attack:
 		//EnemyState_Attack();
 		image_speed = 0.5;
-		if(sprite_index == spr_Aswang_AttackLeft){
-			if(attackFrameTimer > 5){
+		if(sprite_index == spr_Aswang_AttackLeft || sprite_index == spr_Aswang_AttackRight){
+			if(attackFrameTimer > 4){
 				attackFrameTimer = 0;
 				State = EnemyState.Follow;
 			}
-			else if(attackFrameTimer >= 1){
-				x += 2*combat_distance/5*cos(_destination_direction);
-				y += 2*combat_distance/5*sin(_destination_direction);
-			}
-			else if(attackFrameTimer == 0){
-				
-			}
-			attackFrameTimer++;
-		}
-		else if(sprite_index == spr_Aswang_AttackRight){
-			if(attackFrameTimer > 5){
-				attackFrameTimer = 0;
-				State = EnemyState.Follow;
-			}
-			else if(attackFrameTimer >= 1){
+			else{
 				x += (2*combat_distance/5)*cos(_destination_direction);
 				y += (2*combat_distance/5)*sin(_destination_direction);
+				if(place_meeting(x, y, Obj_Junjun)){
+					with(Obj_Junjun){
+						if(Obj_Junjun.Damagecooldown <= 0){
+							Obj_Junjun.HP--;
+							//bottom are preparatory for knockback
+							Obj_Junjun.State = playerstate.Knockback;
+							Obj_Junjun.Damagecooldown = 0.3*room_speed;
+							with(other){
+								isThrowing = false;
+								holdTimer = 0;
+								mouseCooldown = 0;
+								isHoldAttacking = false;
+							}
+						}
+					}
+				}
+				attackFrameTimer++;
 			}
-			else if(attackFrameTimer == 0){
-				
-			}
-			attackFrameTimer++;
 		}
 		else if(sprite_index != spr_Aswang_PrettackLeft && sprite_index != spr_Aswang_PrettackRight){
 			if(x > Obj_Junjun.x){

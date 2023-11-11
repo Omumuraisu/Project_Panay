@@ -28,22 +28,20 @@ switch State{
 				State = EnemyState.Follow;
 			}
 			else{
-				x += (2*combat_distance/5)*cos(_destination_direction);
-				y += (2*combat_distance/5)*sin(_destination_direction);
-				if(place_meeting(x, y, Obj_Junjun)){
+				//if(place_empty(x + (2*combat_distance/5)*cos(_destination_direction), y + (2*combat_distance/5)*sin(_destination_direction), collisionBlock)){
+					x += (2*combat_distance/5)*cos(_destination_direction);
+					y += (2*combat_distance/5)*sin(_destination_direction);
+				//}
+				if(place_meeting(x, y, Obj_Junjun) && Obj_Junjun.Damagecooldown <= 0){
 					with(Obj_Junjun){
-						if(Obj_Junjun.Damagecooldown <= 0){
-							Obj_Junjun.HP--;
-							//bottom are preparatory for knockback
-							Obj_Junjun.State = playerstate.Knockback;
-							Obj_Junjun.Damagecooldown = 0.3*room_speed;
-							with(other){
-								isThrowing = false;
-								holdTimer = 0;
-								mouseCooldown = 0;
-								isHoldAttacking = false;
-							}
-						}
+						HP--;
+						//bottom are preparatory for knockback
+						State = playerstate.Knockback;
+						Damagecooldown = 0.3*room_speed
+						isThrowing = false;
+						holdTimer = 0;
+						mouseCooldown = 0;
+						isHoldAttacking = false;
 					}
 				}
 				attackFrameTimer++;

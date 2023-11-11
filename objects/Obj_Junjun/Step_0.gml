@@ -17,7 +17,7 @@ if(State != playerstate.Knockback){
 		}
 
 	// Attack
-	if (mouse_check_button_released(mb_left)) {
+	if (mouse_check_button_released(mb_left) && Weapon == 1) {
 	    if (State != playerstate.Hold_Attack && attackCooldown == 0 && !isAttacking && mouseCooldown < 10 && !isThrowing && State != playerstate.Throw && !inDialogue)
 		{
 	        State = playerstate.Attack;

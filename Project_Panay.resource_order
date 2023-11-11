@@ -38,6 +38,7 @@
     {"name":"spr_MangkuProj2","order":10,"path":"sprites/spr_MangkuProj2/spr_MangkuProj2.yy",},
     {"name":"spr_statusbar_bg","order":1,"path":"sprites/spr_statusbar_bg/spr_statusbar_bg.yy",},
     {"name":"spr_Mana","order":5,"path":"sprites/spr_Mana/spr_Mana.yy",},
+    {"name":"Enemy_TakeDamage","order":4,"path":"scripts/Enemy_TakeDamage/Enemy_TakeDamage.yy",},
     {"name":"spr_Mangkukulam_DamagedRight","order":7,"path":"sprites/spr_Mangkukulam_DamagedRight/spr_Mangkukulam_DamagedRight.yy",},
     {"name":"tilemap__1_","order":1,"path":"sprites/tilemap__1_/tilemap__1_.yy",},
     {"name":"PlayerState_Attack","order":5,"path":"scripts/PlayerState_Attack/PlayerState_Attack.yy",},

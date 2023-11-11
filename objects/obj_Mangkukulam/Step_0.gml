@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(HP <= 0){
+	State = EnemyState.Dead;
+}
 
-
-if(damageCooldown > 0){
-	damageCooldown--;
+else{
+	if(damageCooldown > 0){
+		damageCooldown--;
+	}
 }

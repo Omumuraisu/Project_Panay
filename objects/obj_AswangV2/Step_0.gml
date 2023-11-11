@@ -5,9 +5,6 @@ if(damageCooldown > 0){
 	damageCooldown--;
 }
 
-if(frame_timer > 0){
-	frame_timer--;
-}
 if(HP <= 0){
 	State = EnemyState.Dead;
 }
@@ -15,7 +12,6 @@ if(HP <= 0){
 if(distance_to_object(Obj_Junjun) <= 540 && State != EnemyState.Knockback && State != EnemyState.Attack && State != EnemyState.Dead){
 	if(distance_to_object(Obj_Junjun) <= combat_distance){
 		State = EnemyState.Attack;
-		frame_timer = 0.3*room_speed;
 	}
 	else{
 		State = EnemyState.Follow;

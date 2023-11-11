@@ -57,6 +57,7 @@
     {"id":{"name":"spr_MangkuProj2","path":"sprites/spr_MangkuProj2/spr_MangkuProj2.yy",},},
     {"id":{"name":"spr_statusbar_bg","path":"sprites/spr_statusbar_bg/spr_statusbar_bg.yy",},},
     {"id":{"name":"spr_Mana","path":"sprites/spr_Mana/spr_Mana.yy",},},
+    {"id":{"name":"Enemy_TakeDamage","path":"scripts/Enemy_TakeDamage/Enemy_TakeDamage.yy",},},
     {"id":{"name":"icon_wp_tsinelas","path":"sprites/icon_wp_tsinelas/icon_wp_tsinelas.yy",},},
     {"id":{"name":"spr_Mangkukulam_DamagedRight","path":"sprites/spr_Mangkukulam_DamagedRight/spr_Mangkukulam_DamagedRight.yy",},},
     {"id":{"name":"tilemap__1_","path":"sprites/tilemap__1_/tilemap__1_.yy",},},

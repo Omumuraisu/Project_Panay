@@ -16,11 +16,10 @@ frame_timer = 0;
 
 attackFrameTimer = 0;
 
-attackDirectionMultiplier = 1;
-
 //determines state of aswang.
 enum EnemyState{
 	Idle,
+	Roam,
 	Follow,
 	Attack,
 	Knockback,

@@ -4,7 +4,7 @@ switch (eventStep) {
 	eventDelay++;
 	if (eventDelay == room_speed * 1) {
 		eventDelay = 0;
-		instance_create_layer(1440, 1440, "Instances", obj_Aswang);
+		//instance_create_layer(1440, 1440, "Instances", obj_Aswang);
 		eventStep = 2;
 	}
 	break;

@@ -9,10 +9,3 @@ if(Obj_Junjun.sprite_index == spr_Junjun_TsinelasLeft || Obj_Junjun.sprite_index
 		EnemyKnockback();
 	}
 }
-else{
-	if(Obj_Junjun.Damagecooldown == 0){
-		Obj_Junjun.HP--;
-		Obj_Junjun.Damagecooldown = 0.3*room_speed;
-		PlayerState_Knockback();
-	}
-}

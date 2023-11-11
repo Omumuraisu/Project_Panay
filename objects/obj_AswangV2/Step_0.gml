@@ -72,18 +72,7 @@ switch State{
 		EnemyState_Follow();
 		break;
 	case EnemyState.Knockback:
-		if(damageCooldown == 0){
-			State = EnemyState.Follow
-			if(x > Obj_Junjun.x){
-				sprite_index = spr_Aswang_IdleLeft;
-			}
-			else{
-				sprite_index = spr_Aswang_IdleRight;
-			}
-		}
-		else{
-			EnemyState_Knockback();
-		}
+		EnemyState_Knockback(spr_Aswang_IdleLeft, spr_Aswang_IdleLeft)
 		break;
 	//case EnemyState.Roam:
 		//EnemyState_Roam();

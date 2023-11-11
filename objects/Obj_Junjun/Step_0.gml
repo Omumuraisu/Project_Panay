@@ -1,27 +1,35 @@
 
-// Hold Attack
-if (mouse_check_button(mb_left) && State != playerstate.Attack && !isHoldAttacking && attackCooldown == 0 && !isThrowing && !inDialogue) 
-	{
-		mouseCooldown ++;
-	}
+if(State != playerstate.Knockback){
+	// Hold Attack
+	if (mouse_check_button(mb_left) && State != playerstate.Attack && !isHoldAttacking && attackCooldown == 0 && !isThrowing && !inDialogue) 
+		{
+			mouseCooldown ++;
+		}
 	
-if (mouseCooldown > 15 && !isThrowing && !inDialogue)
-	{
-		State = playerstate.Hold_Attack;
-		isHoldAttacking = true;
-	}
-	
-// Attack
-if (mouse_check_button_released(mb_left)) {
-    if (State != playerstate.Hold_Attack && attackCooldown == 0 && !isAttacking && mouseCooldown < 10 && !isThrowing && State != playerstate.Throw && !inDialogue)
-	{
-        State = playerstate.Attack;
-		isAttacking = true;
-		attackCooldown = room_speed*0.3;
-		mouseCooldown = 0;
+	if (mouseCooldown > 15 && !isThrowing && !inDialogue)
+		{
+			State = playerstate.Hold_Attack;
+			isHoldAttacking = true;
+		}
+
+	// Attack
+	if (mouse_check_button_released(mb_left)) {
+	    if (State != playerstate.Hold_Attack && attackCooldown == 0 && !isAttacking && mouseCooldown < 10 && !isThrowing && State != playerstate.Throw && !inDialogue)
+		{
+	        State = playerstate.Attack;
+			isAttacking = true;
+			attackCooldown = room_speed*0.3;
+			mouseCooldown = 0;
         
-    }
+	    }
+	}
 }
+else{
+	mouseCooldown = 0;
+	isThrowing = false;
+	holdTimer = 0;
+	isHoldAttacking = false;
+}	
 //states
 switch (State)
 {

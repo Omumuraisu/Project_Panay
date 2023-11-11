@@ -49,6 +49,12 @@ else if (mouse_x < x)
 		holdTimer = 0;
 		mouseCooldown = 0;
 		isHoldAttacking = false;
+		if(x > mouse_x){
+			instance_create_depth(x - 30, y - sprite_height/2, depth, obj_ThrownTsinelas);
+		}
+		else{
+			instance_create_depth(x + 30, y - sprite_height/2, depth, obj_ThrownTsinelas);
+		}
 	}
 }
 

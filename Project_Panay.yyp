@@ -135,6 +135,7 @@
     {"id":{"name":"spr_Aswang_AttackLeft","path":"sprites/spr_Aswang_AttackLeft/spr_Aswang_AttackLeft.yy",},},
     {"id":{"name":"spr_Tiktik_DamagedRight","path":"sprites/spr_Tiktik_DamagedRight/spr_Tiktik_DamagedRight.yy",},},
     {"id":{"name":"spr_Junjun_ThrowLeft","path":"sprites/spr_Junjun_ThrowLeft/spr_Junjun_ThrowLeft.yy",},},
+    {"id":{"name":"obj_ThrownTsinelas","path":"objects/obj_ThrownTsinelas/obj_ThrownTsinelas.yy",},},
     {"id":{"name":"spr_Junjun_MoveRight","path":"sprites/spr_Junjun_MoveRight/spr_Junjun_MoveRight.yy",},},
     {"id":{"name":"spr_Aswang_IdleLeft","path":"sprites/spr_Aswang_IdleLeft/spr_Aswang_IdleLeft.yy",},},
     {"id":{"name":"spr_Tiktik_Attack","path":"sprites/spr_Tiktik_Attack/spr_Tiktik_Attack.yy",},},

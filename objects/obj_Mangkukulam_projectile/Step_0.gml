@@ -13,6 +13,12 @@ if(summoning_sickness <= 0){
 				//bottom are preparatory for knockback
 				Obj_Junjun.State = playerstate.Knockback;
 				Obj_Junjun.Damagecooldown = 0.3*room_speed;
+				with(other){
+					isThrowing = false;
+					holdTimer = 0;
+					mouseCooldown = 0;
+					isHoldAttacking = false;
+				}
 				//Obj_Junjun.damagedFromX = x;
 				//Obj_Junjun.damagedFromY = y;
 			}

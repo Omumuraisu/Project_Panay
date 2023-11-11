@@ -101,6 +101,7 @@
     {"name":"spr_Aswang_AttackLeft","order":5,"path":"sprites/spr_Aswang_AttackLeft/spr_Aswang_AttackLeft.yy",},
     {"name":"spr_Tiktik_DamagedRight","order":7,"path":"sprites/spr_Tiktik_DamagedRight/spr_Tiktik_DamagedRight.yy",},
     {"name":"spr_Junjun_ThrowLeft","order":9,"path":"sprites/spr_Junjun_ThrowLeft/spr_Junjun_ThrowLeft.yy",},
+    {"name":"obj_ThrownTsinelas","order":3,"path":"objects/obj_ThrownTsinelas/obj_ThrownTsinelas.yy",},
     {"name":"spr_Junjun_MoveRight","order":1,"path":"sprites/spr_Junjun_MoveRight/spr_Junjun_MoveRight.yy",},
     {"name":"spr_Tiktik_Attack","order":4,"path":"sprites/spr_Tiktik_Attack/spr_Tiktik_Attack.yy",},
     {"name":"obj_Tiktik","order":2,"path":"objects/obj_Tiktik/obj_Tiktik.yy",},

@@ -21,18 +21,18 @@ if(distance_to_object(Obj_Junjun) <= 540 && State != EnemyState.Knockback && Sta
 switch State{
 	case EnemyState.Attack:
 		//EnemyState_Attack();
-		image_speed = 1;
+		image_speed = 0.5;
 		if(sprite_index == spr_Aswang_AttackLeft){
 			if(attackFrameTimer > 5){
 				attackFrameTimer = 0;
 				State = EnemyState.Follow;
 			}
 			else if(attackFrameTimer >= 1){
-				x += lengthdir_x(2*combat_distance/5, _destination_direction);
-				y += lengthdir_y(2*combat_distance/5, _destination_direction);
+				x += 2*combat_distance/5*cos(_destination_direction);
+				y += 2*combat_distance/5*sin(_destination_direction);
 			}
 			else if(attackFrameTimer == 0){
-				_destination_direction = point_direction(x, y, Obj_Junjun.x,(Obj_Junjun.y - Obj_Junjun.sprite_height/2));
+				
 			}
 			attackFrameTimer++;
 		}
@@ -42,11 +42,11 @@ switch State{
 				State = EnemyState.Follow;
 			}
 			else if(attackFrameTimer >= 1){
-				x -= lengthdir_x(2*combat_distance/5, _destination_direction);
-				y -= lengthdir_y(2*combat_distance/5, _destination_direction);
+				x += (2*combat_distance/5)*cos(_destination_direction);
+				y += (2*combat_distance/5)*sin(_destination_direction);
 			}
 			else if(attackFrameTimer == 0){
-				_destination_direction = point_direction(x, y, Obj_Junjun.x,(Obj_Junjun.y - Obj_Junjun.sprite_height/2));
+				
 			}
 			attackFrameTimer++;
 		}
@@ -57,16 +57,22 @@ switch State{
 			else{
 				sprite_index = spr_Aswang_PrettackRight;
 			}
+			image_index = 0;
+			_destination_direction = arctan2(((Obj_Junjun.y - Obj_Junjun.sprite_height/2) - y), (Obj_Junjun.x - x));
 		}
 		else if(round(image_index) == 2){
 			if(x > Obj_Junjun.x){
 				sprite_index = spr_Aswang_AttackLeft;
+				//_destination_direction = arctan2(((Obj_Junjun.y - Obj_Junjun.sprite_height/2) - y), (Obj_Junjun.x - x));
+				//show_debug_message(_destination_direction);
 			}
 			else{
 				sprite_index = spr_Aswang_AttackRight;
+				//_destination_direction = arctan2(((Obj_Junjun.y - Obj_Junjun.sprite_height/2) - y), (Obj_Junjun.x) - x);
+				//show_debug_message(_destination_direction);
 			}
-			show_debug_message("no");
 		}
+		show_debug_message(image_index);
 		break;
 	case EnemyState.Follow:
 		EnemyState_Follow(spr_Aswang_WalkLeft, spr_Aswang_WalkRight);

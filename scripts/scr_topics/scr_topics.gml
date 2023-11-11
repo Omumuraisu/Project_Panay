@@ -18,7 +18,7 @@ global.topics[$ "Intro1A"] = [
 	new TextAction("*type*"),
 	new SpeakerAction(por_Junjun_default),
 	new TextAction("*type type*"),
-]
+];
 
 global.topics[$ "Intro1B"] = [
 	new SpeakerAction(por_Junjun_default),
@@ -27,13 +27,13 @@ global.topics[$ "Intro1B"] = [
 	new TextAction("*type type*"),
 	new SpeakerAction(por_Junjun_default),
 	new TextAction("OH MY GOD I HOPE YOU #^%#@@%!!"),
-]
+];
 
 global.topics[$ "Intro1C"] = [
 	new SpeakerAction(por_Nanay),
 	new TextAction("Junjun!!"),
 	new SpeakerAction(por_Nanay),
-	new TextAction("Junjun!! Go home already!")
+	new TextAction("Junjun!! Go home already!"),
 	new SpeakerAction(por_Junjun_default),
 	new TextAction("huhh?"),
 	new SpeakerAction(por_Junjun_default),
@@ -60,7 +60,7 @@ global.topics[$ "Intro1C"] = [
 	new TextAction("..."),
 	new SpeakerAction(por_Junjun_default),
 	new TextAction("Oh my god I need to get home my mom is gonna kill me"),
-]
+];
 
 global.topics[$ "Intro2"] = [
 	new SpeakerAction(por_Bantay),

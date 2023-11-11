@@ -3,7 +3,7 @@ switch (eventStep) {
 	case 1: 
 	camera_set_view_target(view_camera[0], noone);
 	Obj_Junjun.State = playerstate.Talk;
-	instance_create_layer(1152, 2500, "Intances", obj_AswangV2);
+	instance_create_layer(1152, 2500, "Instances", obj_AswangV2);
 	obj_AswangV2.State = EnemyState.Pause;
 	eventStep = 2;
 	break;
@@ -61,7 +61,8 @@ switch (eventStep) {
 		camera_set_view_target(view_camera[0], Obj_Junjun);
 		eventStep = 8;
 		eventdelay = 0;
-		Obj_Junjun.State = playerstate.Move;
+		Obj_Junjun.State = playerstate.Move
+		Obj_Junjun.storyState = 3;
 	}
 	break;
 

@@ -91,7 +91,7 @@
 -2147483648,6,611,612,613,614,615,616,-9,-2147483648,1,540,-37,-2147483648,6,651,652,653,654,655,656,-9,-2147483648,1,500,-52,-2147483648,1,540,-52,-2147483648,1,500,-52,-2147483648,1,540,-21,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"OutsideAft","path":"tilesets/OutsideAft/OutsideAft.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75BE11CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"cts_intro4","path":"objects/cts_intro4/cts_intro4.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4992.0,"y":32.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":21,"SerialiseWidth":53,"TileCompressedData":[
 -21,-2147483648,1,497,-6,-2147483648,1,539,-45,-2147483648,1,497,-6,-2147483648,1,499,-45,-2147483648,1,537,-6,-2147483648,1,539,-14,-2147483648,1,401,-16,-2147483648,1,401,-13,-2147483648,1,497,-6,-2147483648,3,499,-2147483648,400,-12,-2147483648,1,441,-16,-2147483648,1,441,-13,-2147483648,1,
 537,-6,-2147483648,3,539,-2147483648,440,-12,-2147483648,1,481,-16,-2147483648,1,481,-13,-2147483648,1,497,-6,-2147483648,3,499,-2147483648,480,-12,-2147483648,1,521,-16,-2147483648,1,521,-13,-2147483648,1,537,-6,-2147483648,3,539,-2147483648,520,-12,-2147483648,1,601,-9,-2147483648,-6,581,2,582,
@@ -137,7 +137,7 @@
   "roomSettings": {
     "Height": 2000,
     "inheritRoomSettings": false,
-    "persistent": false,
+    "persistent": true,
     "Width": 5000,
   },
   "sequenceId": null,

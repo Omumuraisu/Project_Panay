@@ -16,11 +16,15 @@
     {"name":"inst_12611080","path":"rooms/Area2/Area2.yy",},
     {"name":"inst_16AFCD35","path":"rooms/Area2/Area2.yy",},
     {"name":"inst_427E27C2","path":"rooms/Area2/Area2.yy",},
+    {"name":"inst_5409E167","path":"rooms/Area2/Area2.yy",},
+    {"name":"inst_358DCE05","path":"rooms/Area2/Area2.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Cutscenes","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_427E27C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"cts_intro5","path":"objects/cts_intro5/cts_intro5.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":5.869565,"x":2528.0,"y":288.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5409E167","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"cts_snsor_intro7","path":"objects/cts_snsor_intro7/cts_snsor_intro7.yy",},"properties":[],"rotation":0.0,"scaleX":3.7826087,"scaleY":1.0,"x":1216.0,"y":672.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_358DCE05","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"cts_intro7","path":"objects/cts_intro7/cts_intro7.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":1632.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45329B67","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"collisionBlock","path":"objects/collisionBlock/collisionBlock.yy",},"properties":[],"rotation":0.0,"scaleX":22.934782,"scaleY":3.3913043,"x":0.0,"y":-102.0,},
@@ -94,7 +98,7 @@
   "roomSettings": {
     "Height": 1500,
     "inheritRoomSettings": false,
-    "persistent": false,
+    "persistent": true,
     "Width": 3000,
   },
   "sequenceId": null,

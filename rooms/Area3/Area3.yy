@@ -13,7 +13,6 @@
     {"name":"inst_6C94C515","path":"rooms/Area3/Area3.yy",},
     {"name":"inst_300AE574","path":"rooms/Area3/Area3.yy",},
     {"name":"inst_2DD48210","path":"rooms/Area3/Area3.yy",},
-    {"name":"inst_2A35E9F","path":"rooms/Area3/Area3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -60,9 +59,7 @@
 407,485,486,487,568,569,570,-2147483648,488,489,490,365,366,367,485,486,286,287,-2147483648,565,566,567,-2147483648,448,449,
 450,525,526,527,-4,-2147483648,10,528,529,530,405,406,407,525,526,326,327,-5,-2147483648,13,488,489,490,565,566,
 567,-2147483648,285,286,287,568,569,570,-3,-2147483648,2,565,566,],"TileDataFormat":1,},"tilesetId":{"name":"OurtsideNight","path":"tilesets/OurtsideNight/OurtsideNight.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":96,"gridY":96,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A35E9F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Junjun","path":"objects/Obj_Junjun/Obj_Junjun.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":192.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":96,"gridY":96,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":53,"SerialiseWidth":25,"TileCompressedData":[
 893,453,454,455,456,451,452,453,454,455,456,45,89,89,805306413,451,452,453,454,455,456,451,452,453,454,
 455,493,494,495,496,491,492,493,494,495,496,45,89,89,805306413,491,492,493,494,495,496,491,492,493,494,
@@ -126,7 +123,7 @@
   "roomSettings": {
     "Height": 5000,
     "inheritRoomSettings": false,
-    "persistent": false,
+    "persistent": true,
     "Width": 2400,
   },
   "sequenceId": null,

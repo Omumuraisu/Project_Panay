@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
+    {"name":"NPC","order":1,"path":"folders/Objects/NPC.yy",},
     {"name":"NPC","order":2,"path":"folders/Sprites/Characters/NPC.yy",},
     {"name":"Portraits","order":1,"path":"folders/Sprites/Characters/Portraits.yy",},
-    {"name":"NPC","order":1,"path":"folders/Objects/NPC.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"por_Annann","order":6,"path":"sprites/por_Annann/por_Annann.yy",},
@@ -21,6 +21,7 @@
     {"name":"por_Kaloy","order":7,"path":"sprites/por_Kaloy/por_Kaloy.yy",},
     {"name":"spr_Nanay_L","order":2,"path":"sprites/spr_Nanay_L/spr_Nanay_L.yy",},
     {"name":"cts_snsor_intro6","order":2,"path":"objects/cts_snsor_intro6/cts_snsor_intro6.yy",},
+    {"name":"spr_Aswang_DamagedLeft","order":1,"path":"sprites/spr_Aswang_DamagedLeft/spr_Aswang_DamagedLeft.yy",},
     {"name":"cts_intro6","order":3,"path":"objects/cts_intro6/cts_intro6.yy",},
     {"name":"por_Albularyow","order":3,"path":"sprites/por_Albularyow/por_Albularyow.yy",},
     {"name":"por_Bantay","order":2,"path":"sprites/por_Bantay/por_Bantay.yy",},

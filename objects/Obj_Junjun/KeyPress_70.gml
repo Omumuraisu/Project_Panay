@@ -1,3 +1,2 @@
-startDialogue("Example");
-inDialogue = true;
-State = playerstate.Talk;
+windows_set_fullscreen(true);
+

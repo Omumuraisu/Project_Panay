@@ -1,5 +1,6 @@
+
 //Event Control
-storyState = 3;
+storyState = 0;
 
 //Movement
 LastMoveKey = 1; //checking last movement key
@@ -11,7 +12,7 @@ HP = 4;
 HPMAX = 4;
 Damagecooldown = 0
 
-Mana = 3;
+Mana = 0;
 ManaMAX = 3;
 
 //Weapon/Charm

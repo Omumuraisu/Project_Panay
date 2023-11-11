@@ -56,6 +56,11 @@ switch (eventStep) {
 	
 	case 7:
 	startDialogue("Intro7");
+	Obj_Junjun.Weapon = 1;
+	eventStep = 8;
+	break;
+	
+	case 8:
 	break;
 	
 	

@@ -67,6 +67,7 @@
     {"id":{"name":"spr_Kapre_Fire","path":"sprites/spr_Kapre_Fire/spr_Kapre_Fire.yy",},},
     {"id":{"name":"spr_Junjun_TsinelasLeft","path":"sprites/spr_Junjun_TsinelasLeft/spr_Junjun_TsinelasLeft.yy",},},
     {"id":{"name":"EnemyState_Knockback","path":"scripts/EnemyState_Knockback/EnemyState_Knockback.yy",},},
+    {"id":{"name":"obj_Mangkukulam_projectile","path":"objects/obj_Mangkukulam_projectile/obj_Mangkukulam_projectile.yy",},},
     {"id":{"name":"spr_Kapre_AttackRight","path":"sprites/spr_Kapre_AttackRight/spr_Kapre_AttackRight.yy",},},
     {"id":{"name":"spr_Mangkukulam_AttackLeft","path":"sprites/spr_Mangkukulam_AttackLeft/spr_Mangkukulam_AttackLeft.yy",},},
     {"id":{"name":"spr_Junjun_IdleRight","path":"sprites/spr_Junjun_IdleRight/spr_Junjun_IdleRight.yy",},},

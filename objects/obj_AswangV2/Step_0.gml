@@ -69,7 +69,7 @@ switch State{
 		}
 		break;
 	case EnemyState.Follow:
-		EnemyState_Follow();
+		EnemyState_Follow(spr_Aswang_WalkLeft, spr_Aswang_WalkRight);
 		break;
 	case EnemyState.Knockback:
 		EnemyState_Knockback(spr_Aswang_IdleLeft, spr_Aswang_IdleLeft)

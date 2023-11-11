@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerKnockback",
+  "name": "Enemy_TakeDamage",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "Enemy",
+    "path": "folders/Scripts/Enemy.yy",
   },
 }

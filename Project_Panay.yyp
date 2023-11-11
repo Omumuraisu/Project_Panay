@@ -106,7 +106,7 @@
     {"id":{"name":"scr_actions","path":"scripts/scr_actions/scr_actions.yy",},},
     {"id":{"name":"spr_Kapre_MoveLeft","path":"sprites/spr_Kapre_MoveLeft/spr_Kapre_MoveLeft.yy",},},
     {"id":{"name":"EnemyState_Follow","path":"scripts/EnemyState_Follow/EnemyState_Follow.yy",},},
-    {"id":{"name":"PlayerKnockback","path":"scripts/PlayerKnockback/PlayerKnockback.yy",},},
+    {"id":{"name":"PlayerState_Knockback","path":"scripts/PlayerState_Knockback/PlayerState_Knockback.yy",},},
     {"id":{"name":"collisionBlock","path":"objects/collisionBlock/collisionBlock.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"spr_Tiktik_DownRight","path":"sprites/spr_Tiktik_DownRight/spr_Tiktik_DownRight.yy",},},

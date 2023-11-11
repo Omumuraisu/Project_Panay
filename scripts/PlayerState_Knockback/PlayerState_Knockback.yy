@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerKnockback",
+  "name": "PlayerState_Knockback",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

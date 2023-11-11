@@ -8,7 +8,14 @@ if(summoning_sickness <= 0){
 	}
 	if(place_meeting(x, y, Obj_Junjun)){
 		if(Obj_Junjun.sprite_index != spr_Junjun_TsinelasLeft && Obj_Junjun.sprite_index != spr_Junjun_TsinelasLeft){
-			Obj_Junjun.HP--;
+			if(Obj_Junjun.Damagecooldown <= 0){
+				Obj_Junjun.HP--;
+				//bottom are preparatory for knockback
+				Obj_Junjun.State = playerstate.Knockback;
+				Obj_Junjun.Damagecooldown = 0.3*room_speed;
+				//Obj_Junjun.damagedFromX = x;
+				//Obj_Junjun.damagedFromY = y;
+			}
 			instance_destroy();
 		}
 		else{

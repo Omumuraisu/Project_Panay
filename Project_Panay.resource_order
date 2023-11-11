@@ -77,7 +77,7 @@
     {"name":"obj_Mangkukulam","order":1,"path":"objects/obj_Mangkukulam/obj_Mangkukulam.yy",},
     {"name":"scr_topics","order":2,"path":"scripts/scr_topics/scr_topics.yy",},
     {"name":"spr_Kapre_MoveLeft","order":2,"path":"sprites/spr_Kapre_MoveLeft/spr_Kapre_MoveLeft.yy",},
-    {"name":"PlayerKnockback","order":6,"path":"scripts/PlayerKnockback/PlayerKnockback.yy",},
+    {"name":"PlayerState_Knockback","order":6,"path":"scripts/PlayerState_Knockback/PlayerState_Knockback.yy",},
     {"name":"collisionBlock","order":2,"path":"objects/collisionBlock/collisionBlock.yy",},
     {"name":"spr_Tiktik_DownRight","order":3,"path":"sprites/spr_Tiktik_DownRight/spr_Tiktik_DownRight.yy",},
     {"name":"spr_HP","order":3,"path":"sprites/spr_HP/spr_HP.yy",},

@@ -2,6 +2,10 @@
 LastMoveKey = 1; //checking last movement key
 MovementSpeed = 8;
 
+//preparation variables if knockback will be implemented.
+knockbackspeed = sprite_height;
+damagedFromX = 0;
+damagedFromY = 0;
 
 //HP
 HP = 4;
@@ -25,6 +29,7 @@ enum playerstate
 	Hold_Attack,
 	Throw,
 	Talk,
+	Knockback
 }
 
 hitByAttack = ds_list_create();

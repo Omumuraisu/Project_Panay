@@ -31,8 +31,9 @@ switch State{
 			sprite_index = spr_Mangkukulam_AttackLeft;
 			if(floor(image_index) == 4){
 				if(attackFrameTimer <= 0){
-					instance_create_layer(x - sprite_width/2, y, layer, obj_Mangkukulam_projectile);
-					attackFrameTimer = 0.5*room_speed;
+					instance_create_depth(x - sprite_width/2, y, depth, obj_Mangkukulam_projectile);
+					//instance_create_layer(x - sprite_width/2, y, layer, obj_Mangkukulam_projectile);
+					attackFrameTimer = room_speed;
 				}
 			}
 		}
@@ -40,8 +41,9 @@ switch State{
 			sprite_index = spr_Mangkukulam_AttackRight;
 			if(floor(image_index) == 4){
 				if(attackFrameTimer <= 0){
-					instance_create_layer(x + sprite_width/2, y, layer, obj_Mangkukulam_projectile);
-					attackFrameTimer = 0.3*room_speed;
+					instance_create_depth(x + sprite_width/2, y, depth, obj_Mangkukulam_projectile);
+					//instance_create_layer(x + sprite_width/2, y, layer, obj_Mangkukulam_projectile);
+					attackFrameTimer = room_speed;
 				}
 			}
 		}

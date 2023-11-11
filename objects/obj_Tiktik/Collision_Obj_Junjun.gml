@@ -13,6 +13,6 @@ else{
 	if(Obj_Junjun.Damagecooldown == 0){
 		Obj_Junjun.HP--;
 		Obj_Junjun.Damagecooldown = 0.3*room_speed;
-		PlayerKnockback();
+		PlayerState_Knockback();
 	}
 }

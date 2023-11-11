@@ -22,7 +22,6 @@ if (mouse_check_button_released(mb_left)) {
         
     }
 }
-
 //states
 switch (State)
 {
@@ -40,8 +39,22 @@ switch (State)
 	
 	case playerstate.Talk: PlayerState_Talk();
 	break;
+	case playerstate.Knockback:
+		if(Damagecooldown <= 0){
+			State = playerstate.Move;
+			break;
+		}
+		if(sprite_index != spr_Junjun_DamagedLeft && sprite_index != spr_Junjun_DamagedRight){
+			if(LastMoveKey = 1){
+				sprite_index = spr_Junjun_DamagedRight;
+			}
+			else{
+				sprite_index = spr_Junjun_DamagedLeft;
+			}
+		}
+	//PlayerState_Knockback(damagedFromX, damagedFromY); preparatory for knockback
+	break;
 }
-
 
 //Attack Cooldown
 if (attackCooldown > 0) {

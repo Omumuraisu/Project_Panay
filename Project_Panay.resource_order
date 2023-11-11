@@ -2,6 +2,7 @@
   "FolderOrderSettings": [
     {"name":"NPC","order":2,"path":"folders/Sprites/Characters/NPC.yy",},
     {"name":"Portraits","order":1,"path":"folders/Sprites/Characters/Portraits.yy",},
+    {"name":"NPC","order":1,"path":"folders/Objects/NPC.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"por_Annann","order":6,"path":"sprites/por_Annann/por_Annann.yy",},

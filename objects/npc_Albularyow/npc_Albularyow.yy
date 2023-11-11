@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Aswang",
+  "name": "npc_Albularyow",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Aswang_IdleLeft",
-    "path": "sprites/spr_Aswang_IdleLeft/spr_Aswang_IdleLeft.yy",
+    "name": "spr_Albularyow_L",
+    "path": "sprites/spr_Albularyow_L/spr_Albularyow_L.yy",
   },
   "spriteMaskId": null,
   "visible": true,
